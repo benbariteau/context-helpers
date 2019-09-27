@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name='context-helpers',
-    version='0.1.2',
+    version='0.1.3',
     description='Helpers for dealing with context managers',
     url='https://github.com/firba1/context-helpers',
     author='Ben Bariteau',
