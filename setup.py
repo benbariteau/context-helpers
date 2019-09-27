@@ -8,6 +8,9 @@ setup(
     author='Ben Bariteau',
     author_email='ben.bariteau@gmail.com',
     license='MIT',
+    install_requires=[
+        'contextlib2',
+    ],
     classifiers=[
         'Development Status :: 3 - Alpha',
         'License :: OSI Approved :: MIT License',
