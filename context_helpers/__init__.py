@@ -29,3 +29,11 @@ def nested(*context_managers):
     :return: a tuple of values yielded from each of the context managers, in order
     """
     return nested_context(context_managers)
+
+
+@contextmanager
+def noop_context():
+    """
+    For situations where you need to use a context manager (or it's inconvient to make it optional), but you need it to do nothing
+    """
+    yield
