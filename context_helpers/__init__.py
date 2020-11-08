@@ -34,6 +34,8 @@ def nested(*context_managers):
 @contextmanager
 def noop_context():
     """
-    For situations where you need to use a context manager (or it's inconvient to make it optional), but you need it to do nothing
+    For situations where you need to use a context manager (or it's inconvient to make it optional), but you need it to do nothing.
+    
+    NOTE: Python 3.7 includes contextlib.nullcontext, which does basically what this does. You should probably use that instead.
     """
     yield
