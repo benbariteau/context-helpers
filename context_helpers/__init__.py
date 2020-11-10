@@ -8,7 +8,7 @@ def nested_context(context_managers):
     managers you need to enter, so you can't use multi-with. This saves a bit
     of boilerplate over just using ExitStack.
 
-    :param context_managers: an interable of context managers
+    :param context_managers: an iterable of context managers
     :return: a tuple of values yielded from each of the context managers, in order
     """
     with ExitStack() as stack:
